@@ -1,0 +1,43 @@
+.first {
+  padding-top: 200px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+}
+.second {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+.third {
+  padding-top: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width:992px) {
+  
+  .first {
+    padding-left: 100px;
+  }
+  .third {
+    padding-right: 100px;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  
+  .first {
+    padding-left: 50px;
+  }
+  .third {
+    padding-right: 50px;
+  }
+}
+@media only screen and (max-width:310px) {
+  
+  .first {
+    padding-left: 40px;
+  }
+  .third {
+    padding-right: 40px;
+  }
+}
